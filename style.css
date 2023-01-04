@@ -122,9 +122,22 @@ body{
     right: 0;
     width: 3rem;
 }
-
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 1rem ;
+    margin-bottom: 0;
+    background-color: var(--Red);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .hidden{
+    display: none;
+  }
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 1rem;
 }
 .attribution a {
      color: hsl(228, 45%, 44%); 
